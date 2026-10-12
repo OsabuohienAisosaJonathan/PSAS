@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: psas-backend
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+      - DB_TYPE=sqlite
+      - SQLITE_DB_PATH=/app/data/psas.sqlite
+      - JWT_SECRET=psas-docker-research-secret-2026
+      - NODE_ENV=production
+    volumes:
+      - psas_data:/app/data
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: psas-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  psas_data:

@@ -1,0 +1,182 @@
+[
+  {
+    "testId": "BENCH-001",
+    "label": "Trivial Dictionary Root",
+    "description": "Common single dictionary word with no diversity",
+    "passwordCandidate": "password",
+    "expectedCategory": "Very Weak",
+    "expectedRisk": "Severe",
+    "categoryType": "Dictionary"
+  },
+  {
+    "testId": "BENCH-002",
+    "label": "Linear Numeric Sequence",
+    "description": "Continuous ascending digits 1 through 6",
+    "passwordCandidate": "123456",
+    "expectedCategory": "Very Weak",
+    "expectedRisk": "Severe",
+    "categoryType": "Sequential"
+  },
+  {
+    "testId": "BENCH-003",
+    "label": "Standard QWERTY Walk",
+    "description": "Horizontal top keyboard row walk",
+    "passwordCandidate": "qwertyuiop",
+    "expectedCategory": "Very Weak",
+    "expectedRisk": "Severe",
+    "categoryType": "Keyboard"
+  },
+  {
+    "testId": "BENCH-004",
+    "label": "Obfuscated Leet-Dictionary with Suffix",
+    "description": "Classic P@ssw0rd123! meeting all 4 conventional rules",
+    "passwordCandidate": "P@ssw0rd123!",
+    "expectedCategory": "Weak",
+    "expectedRisk": "High",
+    "categoryType": "LeetSpeak"
+  },
+  {
+    "testId": "BENCH-005",
+    "label": "Administrative Year Affix",
+    "description": "Admin root with calendar year and punctuation mark",
+    "passwordCandidate": "Admin2024!",
+    "expectedCategory": "Weak",
+    "expectedRisk": "High",
+    "categoryType": "Dates"
+  },
+  {
+    "testId": "BENCH-006",
+    "label": "Single Character Repetition",
+    "description": "12 characters composed of identical letter 'a'",
+    "passwordCandidate": "aaaaaaaaaaaa",
+    "expectedCategory": "Very Weak",
+    "expectedRisk": "Severe",
+    "categoryType": "Sequential"
+  },
+  {
+    "testId": "BENCH-007",
+    "label": "Numeric Keypad Run",
+    "description": "3x3 numeric keypad diagonal sweep",
+    "passwordCandidate": "789456123",
+    "expectedCategory": "Very Weak",
+    "expectedRisk": "Severe",
+    "categoryType": "Keyboard"
+  },
+  {
+    "testId": "BENCH-008",
+    "label": "High-Entropy 4-Word Passphrase",
+    "description": "Diceware-style 4 unrelated words spaced out",
+    "passwordCandidate": "correct-horse-battery-staple",
+    "expectedCategory": "Very Strong",
+    "expectedRisk": "Low",
+    "categoryType": "Passphrase"
+  },
+  {
+    "testId": "BENCH-009",
+    "label": "True Random Cryptographic 16-Char",
+    "description": "Pseudorandom uniform distribution over 95 ASCII symbols",
+    "passwordCandidate": "X9#kL2$vM8!pQ4&z",
+    "expectedCategory": "Very Strong",
+    "expectedRisk": "Low",
+    "categoryType": "Complex"
+  },
+  {
+    "testId": "BENCH-010",
+    "label": "Sport Word with Simple Suffix",
+    "description": "Dictionary word 'football' followed by '123'",
+    "passwordCandidate": "football123",
+    "expectedCategory": "Very Weak",
+    "expectedRisk": "Severe",
+    "categoryType": "Dictionary"
+  },
+  {
+    "testId": "BENCH-011",
+    "label": "Compound Dictionary Words",
+    "description": "Two concatenated dictionary words 'dragon' and 'master'",
+    "passwordCandidate": "dragonmaster",
+    "expectedCategory": "Weak",
+    "expectedRisk": "High",
+    "categoryType": "Dictionary"
+  },
+  {
+    "testId": "BENCH-012",
+    "label": "Birthdate with Special Character",
+    "description": "Common full European birthdate format with exclamation",
+    "passwordCandidate": "12052001!",
+    "expectedCategory": "Weak",
+    "expectedRisk": "High",
+    "categoryType": "Dates"
+  },
+  {
+    "testId": "BENCH-013",
+    "label": "Duplicated Word Token",
+    "description": "Repeated administrative token 'adminadmin'",
+    "passwordCandidate": "adminadmin",
+    "expectedCategory": "Very Weak",
+    "expectedRisk": "Severe",
+    "categoryType": "Dictionary"
+  },
+  {
+    "testId": "BENCH-014",
+    "label": "Known RockYou Compromised Credential",
+    "description": "Top breached password 'iloveyou' with capital I",
+    "passwordCandidate": "Iloveyou123",
+    "expectedCategory": "Very Weak",
+    "expectedRisk": "Severe",
+    "categoryType": "Breached"
+  },
+  {
+    "testId": "BENCH-015",
+    "label": "XKCD Leet Transformation",
+    "description": "Troubador with 0 for o and &3 affix",
+    "passwordCandidate": "Tr0ub4dor&3",
+    "expectedCategory": "Weak",
+    "expectedRisk": "High",
+    "categoryType": "LeetSpeak"
+  },
+  {
+    "testId": "BENCH-016",
+    "label": "Moderate Random 10-Char",
+    "description": "Random 10 characters with mixed classes",
+    "passwordCandidate": "K7#mP9$wQ2",
+    "expectedCategory": "Fair",
+    "expectedRisk": "Moderate",
+    "categoryType": "Complex"
+  },
+  {
+    "testId": "BENCH-017",
+    "label": "Reverse Keyboard Run",
+    "description": "Reverse top QWERTY row 'mnbvcxz'",
+    "passwordCandidate": "mnbvcxz",
+    "expectedCategory": "Very Weak",
+    "expectedRisk": "Severe",
+    "categoryType": "Keyboard"
+  },
+  {
+    "testId": "BENCH-018",
+    "label": "Extended Multi-Word Passphrase",
+    "description": "Five random thematic words separated by dashes",
+    "passwordCandidate": "crimson-velvet-falcon-drifts-quietly",
+    "expectedCategory": "Very Strong",
+    "expectedRisk": "Low",
+    "categoryType": "Passphrase"
+  },
+  {
+    "testId": "BENCH-019",
+    "label": "Descending Numeric Run",
+    "description": "Reverse countdown 654321",
+    "passwordCandidate": "654321",
+    "expectedCategory": "Very Weak",
+    "expectedRisk": "Severe",
+    "categoryType": "Sequential"
+  },
+  {
+    "testId": "BENCH-020",
+    "label": "High-Entropy 20-Char Cryptographic Key",
+    "description": "20 character cryptographic uniform sampling",
+    "passwordCandidate": "J9#eT4$wK8!yB2%mR6^u",
+    "expectedCategory": "Very Strong",
+    "expectedRisk": "Low",
+    "categoryType": "Complex"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "password-security-analysis-system",
+  "version": "1.0.0",
+  "description": "Password Security Analysis System (PSAS) - Research-Grade Dissertation Implementation",
+  "private": true,
+  "workspaces": [
+    "core",
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "setup": "npm install && npm run build --workspace=core",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"blue,green\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build": "npm run build --workspace=core && npm run build --workspace=backend && npm run build --workspace=frontend",
+    "start": "node backend/dist/server.js",
+    "test": "npm run test --workspace=core",
+    "test:all": "tsx tests/unit/core.test.ts",
+    "seed": "npm run seed --workspace=backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  },
+  "keywords": [
+    "password-security",
+    "entropy",
+    "crack-time",
+    "cybersecurity",
+    "dissertation",
+    "research"
+  ],
+  "author": "Computer Science Researcher",
+  "license": "MIT"
+}

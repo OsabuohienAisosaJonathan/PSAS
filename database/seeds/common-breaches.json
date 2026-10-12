@@ -1,0 +1,152 @@
+[
+  {
+    "password_hash": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+    "hash_type": "SHA-256",
+    "frequency": 10000000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "hash_type": "SHA-256",
+    "frequency": 8500000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
+    "hash_type": "SHA-256",
+    "frequency": 6200000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "e6c279f61681f37e071231b1f1806748f149b207b6f3a603ac2a057ff3d07c4f",
+    "hash_type": "SHA-256",
+    "frequency": 4300000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "65e84be33532fb784c48129675f9eff3a682b27164c0ea699acddec988923297",
+    "hash_type": "SHA-256",
+    "frequency": 3900000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+    "hash_type": "SHA-256",
+    "frequency": 3100000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "bcb15f821479b4d5772bd0ca866c00ad5f926e3580720659cc80d39c9d09802a",
+    "hash_type": "SHA-256",
+    "frequency": 2800000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+    "hash_type": "SHA-256",
+    "frequency": 2400000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "0591f4f469950e32c1db6822c748c909623e1160a2b5e0c52bb1a98075fa05c2",
+    "hash_type": "SHA-256",
+    "frequency": 2100000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+    "hash_type": "SHA-256",
+    "frequency": 1950000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "b4932f934e866636d1b46950833790d76764f55866b6ab788a59f84a7ddcf329",
+    "hash_type": "SHA-256",
+    "frequency": 1800000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "5844a15e76563fedd400147f010f3c51608d009b0b8c2a8f895fbcd038fb5094",
+    "hash_type": "SHA-256",
+    "frequency": 1700000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "e7cf3ef4f17c3999a94f2c6f612e8a888e5b1026878e4e19398b23bd38ec221a",
+    "hash_type": "SHA-256",
+    "frequency": 1600000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+    "hash_type": "SHA-256",
+    "frequency": 1500000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b",
+    "hash_type": "SHA-256",
+    "frequency": 1400000,
+    "source": "RockYou Corpus"
+  },
+  {
+    "password_hash": "95a8e0f6c2c77d544c6883ab84dff989e27c13dc1a1f0a210515bc4093952f1e",
+    "hash_type": "SHA-256",
+    "frequency": 1250000,
+    "source": "HaveIBeenPwned Common"
+  },
+  {
+    "password_hash": "9b71d224bd62f3785d96d46ad3ea3d73319bfbc2890caadae2dff72519673ca7",
+    "hash_type": "SHA-256",
+    "frequency": 1150000,
+    "source": "HaveIBeenPwned Common"
+  },
+  {
+    "password_hash": "f62ee8ff227eb0adcd5cf5b8d23e590483ff1c876f1e29e5a1b32d164d935406",
+    "hash_type": "SHA-256",
+    "frequency": 1050000,
+    "source": "HaveIBeenPwned Common"
+  },
+  {
+    "password_hash": "848b61e27a69622d645e54d55ffeb7ca94d76f874cd2a2592d3b2452da691da0",
+    "hash_type": "SHA-256",
+    "frequency": 950000,
+    "source": "HaveIBeenPwned Common"
+  },
+  {
+    "password_hash": "d1e4bf321ebfb1c5caae4b29bb6bc8dc67f226bb8eaecac007ef3c428cbef5d9",
+    "hash_type": "SHA-256",
+    "frequency": 920000,
+    "source": "HaveIBeenPwned Common"
+  },
+  {
+    "password_hash": "d82260f8490aae88a38b2fbce156f030bc6d82218be9e5eb2d1b09b5ab229bf2",
+    "hash_type": "SHA-256",
+    "frequency": 880000,
+    "source": "HaveIBeenPwned Common"
+  },
+  {
+    "password_hash": "151c6c06b7d59187abf27e5d8ff6815cf1a95e2ca735e582885934661858cff2",
+    "hash_type": "SHA-256",
+    "frequency": 820000,
+    "source": "HaveIBeenPwned Common"
+  },
+  {
+    "password_hash": "a4b7914856f4d2bd50ec57989dcfd14e05fc867a5be2fa8d58c89b78a9c72c5b",
+    "hash_type": "SHA-256",
+    "frequency": 780000,
+    "source": "HaveIBeenPwned Common"
+  },
+  {
+    "password_hash": "a97e68cf0e7912ad30ad28ec7f37e475d6ae68e82a9d82121e42c2be9be17aa2",
+    "hash_type": "SHA-256",
+    "frequency": 750000,
+    "source": "HaveIBeenPwned Common"
+  },
+  {
+    "password_hash": "f685c074be24f2b963ee387cc8e7fa5a7f23be059c908c6b758784fc5fbab416",
+    "hash_type": "SHA-256",
+    "frequency": 710000,
+    "source": "HaveIBeenPwned Common"
+  }
+]

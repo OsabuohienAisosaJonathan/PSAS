@@ -1,0 +1,23 @@
+{
+  "name": "@psas/core",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Core analysis algorithms and models for Password Security Analysis System",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx ../tests/unit/core.test.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
+
