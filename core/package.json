@@ -15,9 +15,9 @@
     "build": "tsc",
     "test": "tsx ../tests/unit/core.test.ts"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "typescript": "^5.7.3"
-  }
+  },
+  "devDependencies": {}
 }
 
